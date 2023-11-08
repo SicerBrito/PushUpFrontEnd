@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fuera{
+    box-shadow: 1px 1px 12px 1px;
+    width: 155px;
+    position: absolute;
+    z-index: 50;
+}
+
+#navbar-example2{
+    background-color: #D70021;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.header{
+    position: relative;
+}
+
+#moove_gdpr_save_popup_settings_button:not(.gdpr-floating-button-custom-position) {
+
+    left: 40px;
+    bottom: 60px !important;
+    background-color: #373737;
+    color: #fff;
+    display: block;
+    z-index: 1001;
+    position: fixed;
+    background-color: #D70021;
+    transition: all .3s ease;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    height: 88px;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 0;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+.btn-color{
+    background-color: #D70021;
+    color: aliceblue;
+}
+
+.modal-color{
+    background-color: #D70021;
+    color: aliceblue;
+}
+
+
+.btn-instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.btn-facebook{
+    background: #0866ff;
+}
+
+.btn-twitter{
+    background: #00b2ef;
+}
+
+.btn-linkedin{
+    background: #0b65c3;
+}
+
+.btn-youtube{
+    background: #ff0000;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .fuera {
+        width: 120px;
+    }
+    .header .nav-item1{
+        display: none;
+    }
+    .header .nav-item2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fuera {
+        width: 75px;
+    }
+
+    .header .nav-item1{
+        display: none;
+    }
+
+    .header .nav-item2{
+        display: none;
+    }
+
+    .header .nav-item3{
+        display: none;
+    }
+}
